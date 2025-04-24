@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>로그인 실습</title>
+  </head>
+  <style>
+    .sr-only {
+      position: absolute;
+      left: -9999px;
+      top: auto;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
+    .layout {
+      width: 400px;
+      height: 200px;
+    }
+    .log-in-area {
+      width: 350px;
+      height: 140px;
+      top: 30px;
+      left: 25px;
+      border-radius: 5px;
+      border-width: 1px;
+    }
+    .pt {
+      width: 215;
+      height: 15;
+      top: 19px;
+      left: 16px;
+      font-family: Spoqa Han Sans Neo;
+      font-weight: 400px;
+      font-size: 12px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      color: #000000;
+    }
+    .rectangle1 {
+      width: 318px;
+      height: 40px;
+      top: 50px;
+      left: 16px;
+      border-radius: 4px;
+      background-color: #711bff;
+    }
+    .rectangle2 {
+      width: 318px;
+      height: 40px;
+      top: 50px;
+      left: 16px;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .group1 {
+      width: 102;
+      height: 18;
+      top: 61px;
+      left: 124px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    .logo {
+      width: 64px;
+      height: 18px;
+      top: 61px;
+      left: 124px;
+    }
+    .login-text {
+      width: 34px;
+      height: 15px;
+      top: 64px;
+      left: 192px;
+      font-family: Spoqa Han Sans Neo;
+      font-weight: 500px;
+      font-size: 12px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      color: #ffffff;
+    }
+    .group2-3 {
+      width: 100%;
+      margin: 10px auto;
+    }
+    .group2 {
+      width: 133px;
+      height: 16px;
+      top: 106px;
+      left: 16px;
+      float: left;
+    }
+    .icon {
+      width: 16px;
+      height: 16px;
+      top: 106px;
+      left: 16px;
+    }
+    .id-pw-text {
+      width: 34px;
+      height: 15px;
+      top: 107px;
+      left: 36px;
+      font-family: Spoqa Han Sans Neo;
+      font-weight: 400px;
+      font-size: 12px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      color: #767676;
+    }
+    .group3 {
+      width: 65px;
+      height: 16px;
+      top: 106px;
+      left: 269px;
+      float: right;
+    }
+    .register-text {
+      font-family: Spoqa Han Sans Neo;
+      font-weight: 400px;
+      font-size: 12px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      color: #767676;
+    }
+  </style>
+  <body>
+    <article class="log-in-area">
+      <h2 class="sr-only">로그인</h2>
+      <p class="pt">더 편리해진 위니브에 오신 것을 환영합니다.</p>
+      <div class="rectangle1">
+        <div class="rectangle2">
+          <div class="group1">
+            <a href="">
+              <img
+                src="img/weniv-logo.png"
+                alt="weniv-logo"
+                class="logo"
+              />&nbsp;
+              <span class="login-text">로그인</span>
+            </a>
+          </div>
+        </div>
+        <div class="group2-3">
+          <div class="group2">
+            <img src="img/icon-lock.png" alt="icon" class="icon" />
+            <span class="id-pw-text">
+              <a href="www.daum.net">아이디</a> |
+              <a href="">비밀번호찾기</a></span
+            >
+          </div>
+          <div class="group3">
+            <img src="img/icon-user.png" alt="icon" class="icon" />
+            <span class="register-text">
+              <a href="">회원가입</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
